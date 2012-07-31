@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:collective="http://schemas.android.com/apk/res/com.collective.personalize">
+
+	<PreferenceCategory
+		android:key="collective"
+		android:title="@string/collective">
+
+		<Preference
+			android:key="collective_website"
+			android:title="@string/collective_website_title"
+			android:summary="@string/collective_website_summary" />
+
+		<Preference
+			android:key="collective_source"
+			android:title="@string/collective_source_title"
+			android:summary="@string/collective_source_summary" />
+		<!-- Commented out for now till set up -->
+<!--		<Preference
+			android:key="collective_review"
+			android:title="@string/collective_review_title"
+			android:summary="@string/collective_review_summary" /> -->
+
+		<Preference
+			android:key="collective_gplus"
+			android:title="@string/collective_gplus_title"
+			android:summary="@string/collective_gplus_summary" />
+
+	</PreferenceCategory>
+
+	<PreferenceCategory
+		android:key="devs"
+		android:title="@string/devs">
+		<com.collective.personalize.widgets.DeveloperPreference
+			android:title="David"
+			collective:twitterHandle="CollectiveDevs"
+			collective:profileLink="@string/profile_johnsondr80" />
+
+		<com.collective.personalize.widgets.DeveloperPreference
+			android:title="Tim"
+			collective:twitterHandle="CollectiveDevs"
+			collective:profileLink="@string/profile_ruger94" />
+
+		<com.collective.personalize.widgets.DeveloperPreference
+			android:title="John"
+			collective:twitterHandle="CollectiveDevs"
+			collective:profileLink="@string/profile_fezzy102" />
+
+		<com.collective.personalize.widgets.DeveloperPreference
+			android:title="Dan"
+			collective:twitterHandle="CollectiveDevs"
+			collective:profileLink="@string/profile_danarki" />
+
+		<com.collective.personalize.widgets.DeveloperPreference
+			android:title="Jason"
+			collective:twitterHandle="CollectiveDevs"
+			collective:profileLink="@string/profile_boog" />
+
+		<com.collective.personalize.widgets.DeveloperPreference
+			android:title="Roger"
+			collective:twitterHandle="CollectiveDevs"
+			collective:profileLink="@string/profile_crt60" />
+
+		<com.collective.personalize.widgets.DeveloperPreference
+			android:title="Damon"
+			collective:twitterHandle="CollectiveDevs"
+			collective:profileLink="@string/profile_dman3285" />
+
+		<com.collective.personalize.widgets.DeveloperPreference
+			android:title="Rob"
+			collective:twitterHandle="CollectiveDevs"
+			collective:profileLink="@string/profile_robm1911" />
+
+		<com.collective.personalize.widgets.DeveloperPreference
+			android:title="Alex H."
+			collective:twitterHandle="CollectiveDevs"
+			collective:profileLink="@string/profile_mortem_taum" />
+
+		<com.collective.personalize.widgets.DeveloperPreference
+			android:title="Lawarnce"
+			collective:twitterHandle="CollectiveDevs"
+			collective:profileLink="@string/profile_silverwrx03" />
+
+		<com.collective.personalize.widgets.DeveloperPreference
+			android:title="Leslie"
+			collective:twitterHandle="CollectiveDevs"
+			collective:profileLink="@string/profile_kingmurry" />
+
+		<com.collective.personalize.widgets.DeveloperPreference
+			android:title="Eric"
+			collective:twitterHandle="CollectiveDevs"
+			collective:profileLink="@string/profile_ee23hd2" />
+
+		<com.collective.personalize.widgets.DeveloperPreference
+			android:title="Alex P."
+			collective:twitterHandle="CollectiveDevs"
+			collective:profileLink="@string/profile_plexicle" />
+			
+		<com.collective.personalize.widgets.DeveloperPreference
+			android:title="Carlos G."
+			collective:twitterHandle="CollectiveDevs"
+			collective:profileLink="@string/profile_kornklown69" />
+
+	</PreferenceCategory>
+
+</PreferenceScreen>
